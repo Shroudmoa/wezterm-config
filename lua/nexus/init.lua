@@ -165,8 +165,7 @@ function M.apply(config, user)
   elseif core.is_windows then
     config.win32_system_backdrop = 'Acrylic'
   else
-    config.wayland_window_background_blur = 28
-    config.kde_window_background_blur = 28
+    config.wayland_window_background_blur = true
   end
 
   return config

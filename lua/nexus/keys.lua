@@ -64,7 +64,7 @@ local key_tables = {
     { key = 'Enter', action = 'PopKeyTable' },
   },
 
-  goto = {
+  ['goto'] = {
     { key = 'w', action = commands.event('workspace-picker') },
     { key = 'n', action = commands.event('workspace-new') },
     { key = 't', action = act.ShowTabNavigator },
@@ -164,7 +164,7 @@ function M.apply(config)
   config.mouse_bindings = {
     {
       event = { Down = { streak = 1, button = 'Middle' } },
-      action = act.PastePrimarySelection,
+      action = act.PasteFrom 'PrimarySelection',
     },
   }
 end

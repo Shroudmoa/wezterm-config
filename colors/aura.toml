@@ -1,7 +1,7 @@
 [metadata]
 name = "Aura Glass"
 author = "NEXUS v2"
-description = "Polar-night navy with cyan and lilac highlights"
+# description: Polar-night navy with cyan and lilac highlights
 
 [colors]
 background = "#0B1020"

@@ -1,7 +1,7 @@
 [metadata]
 name = "Nocturne Void"
 author = "NEXUS v2"
-description = "High-contrast near-black with electric lime and magenta"
+# description: High-contrast near-black with electric lime and magenta
 
 [colors]
 background = "#05070A"

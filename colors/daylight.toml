@@ -1,7 +1,7 @@
 [metadata]
 name = "Daylight Porcelain"
 author = "NEXUS v2"
-description = "Clean light surface with cobalt and amber accents"
+# description: Clean light surface with cobalt and amber accents
 
 [colors]
 background = "#F4F6FB"
